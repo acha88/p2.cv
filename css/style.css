@@ -1,3 +1,9 @@
-#bordurecolor {
-  background-color: 8e24aa;
+.sidebar .color {
+  background-color: #7451eb;
+}
+.prenom {
+  color: #7451eb;
+}
+body {
+  background-color: #7451eb;
 }
