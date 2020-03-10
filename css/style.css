@@ -1,9 +1,109 @@
-.sidebar .color {
-  background-color: #7451eb;
+.sidebar {
+  position: relative;
+  width: 370px;
+  height: 1250px;
+  background: #7451eb;
 }
-.prenom {
+#photo {
+  position: absolute;
+  width: 210px;
+  height: 240px;
+  left: 80px;
+  top: 40px;
+}
+#contact {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 16px;
+  top: 300px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+#about {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 16px;
+  top: 620px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+#hobbies {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 16px;
+  top: 1050px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+strong {
   color: #7451eb;
 }
-body {
-  background-color: #7451eb;
+h1 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: 'Comic Sans MS', sans-serif;
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  left: 400px;
+  top: 80px;
+}
+.little_title {
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Comic Sans MS', sans-serif;
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  left: 400px;
+  top: 140px;
+}
+
+h2 {
+  font-size: 20px;
+  background-color: #37474f;
+  color: #eeeeee;
+}
+h3 {
+  font-family: 'roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+}
+p {
+  color: black;
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'roboto', sans-serif;
+}
+h4 {
+  color: #37474f;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: 'Comic sans ms', sans-serif;
+}
+#conteneur {
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'roboto', sans-serif;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: 400px;
+  top: 300px;
 }
