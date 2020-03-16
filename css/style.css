@@ -1,75 +1,31 @@
 .sidebar {
-  position: relative;
-  width: 370px;
-  height: 1250px;
+  width: 20%;
   background: #7451eb;
-}
-#photo {
-  position: absolute;
-  width: 210px;
-  height: 240px;
-  left: 80px;
-  top: 40px;
-}
-#contact {
-  position: absolute;
-  width: 300px;
-  height: 100px;
-  left: 16px;
-  top: 300px;
-  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Time New Roman';
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
+  text-align: center;
 }
-#about {
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  left: 16px;
-  top: 620px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-}
-#hobbies {
-  position: absolute;
-  width: 300px;
-  height: 100px;
-  left: 16px;
-  top: 1050px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-}
-
 strong {
   color: #7451eb;
 }
 h1 {
-  font-size: 28px;
+  font-size: 34px;
   font-style: normal;
-  font-family: 'Comic Sans MS', sans-serif;
-  position: absolute;
-  width: 700px;
-  height: 50px;
-  left: 400px;
-  top: 80px;
+  font-family: 'Time New Roman', sans-serif;
+  padding: 5% 5% 2%;
+  margin: 0;
 }
 .little_title {
   font-size: 20px;
   font-style: normal;
-  font-family: 'Comic Sans MS', sans-serif;
-  position: absolute;
-  width: 700px;
-  height: 50px;
-  left: 400px;
-  top: 140px;
+  font-family: 'Time New Roman', sans-serif;
+  padding: 0 5% 15%;
+  margin: 0;
 }
 
 h2 {
@@ -78,32 +34,59 @@ h2 {
   color: #eeeeee;
 }
 h3 {
-  font-family: 'roboto', sans-serif;
+  font-family: 'Time New Roman', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
-  line-height: 33px;
+  padding: 0 5%;
 }
 p {
   color: black;
   font-size: 15px;
   font-style: normal;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Time New Roman', sans-serif;
 }
 h4 {
   color: #37474f;
-  font-size: 18px;
+  font-size: 15px;
   font-style: oblique;
-  font-family: 'Comic sans ms', sans-serif;
+  font-family: 'Time New Roman', sans-serif;
+  margin-left: 5%;
 }
 #conteneur {
   color: black;
   font-size: 18px;
   font-style: normal;
-  font-family: 'roboto', sans-serif;
-  position: absolute;
-  width: 800px;
-  height: 800px;
-  left: 400px;
-  top: 300px;
+  font-family: 'Time New Roman', sans-serif;
+  margin-top: 5%;
+}
+.date-desc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.date {
+  display: flex;
+  margin-top: 0;
+  margin-left: 5%;
+  padding: 0;
+  width: 25%;
+}
+.description {
+  display: flex;
+  margin-top: 0;
+  padding: 0;
+  width: 55%;
+}
+.description_text {
+  display: flex;
+  margin-top: 0;
+  padding: 0;
+  margin-left: 5%;
+}
+.main-container {
+  display: flex;
 }
