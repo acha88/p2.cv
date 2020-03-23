@@ -1,3 +1,6 @@
+body {
+  margin: 0 0 0 0;
+}
 .main-container {
   display: flex;
 }
@@ -72,7 +75,11 @@ p {
 .date-desc {
   display: flex;
   align-items: center;
-  margin: 0 5%;
+  margin: 0 2%;
+}
+i.fas {
+  border: 10px;
+  color: #7451eb;
 }
 .studies {
   margin: 0 5%;
