@@ -2,6 +2,7 @@ body {
   margin: 0 0 0 0;
 }
 .main-container {
+  height: 100vh;
   display: flex;
 }
 h1 {
@@ -38,6 +39,7 @@ p {
 }
 .sidebar {
   width: 30%;
+  height: 100vh;
   background: #7451eb;
   display: flex;
   flex-direction: column;
@@ -47,6 +49,15 @@ p {
   font-style: normal;
   font-weight: normal;
   text-align: center;
+}
+.sidebar p {
+  color: #ddd7d7;
+}
+.about_content {
+  padding: 0 1em;
+}
+.some {
+  width: 100%;
 }
 .first_name {
   color: #7451eb;
@@ -59,7 +70,7 @@ p {
   margin: 0;
 }
 .small_ligne {
-  width: 7%;
+  width: 3%;
   border: 1px solid #7451eb;
   margin: 0 5% 5%;
 }
@@ -69,7 +80,7 @@ p {
   width: 100%;
 }
 .ligne {
-  width: 90%;
+  width: 100%;
   border: 1px solid #7451eb;
 }
 .date-desc {
@@ -110,10 +121,10 @@ i.fas {
   }
   .sidebar {
     width: auto;
-    background: #7451eb;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 1em 0;
   }
 }
