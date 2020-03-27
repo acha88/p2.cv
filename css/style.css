@@ -1,22 +1,32 @@
+/* Toute la page */
 body {
-  margin: 0 0 0 0;
+  margin: 0 0;
 }
+
 .main-container {
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
 }
+/* le lien */
+a:link {
+  color: #261c47;
+}
+/* les titres & paragraphes */
 h1 {
   font-size: 22px;
   font-style: normal;
   font-family: 'Time New Roman', sans-serif;
-  padding: 5% 5% 2%;
+  padding: 2% 5% 2%;
   margin: 0;
 }
+
 h2 {
   font-size: 20px;
   background-color: #37474f;
   color: #eeeeee;
 }
+
 h3 {
   font-family: 'Time New Roman', sans-serif;
   font-style: normal;
@@ -24,6 +34,7 @@ h3 {
   font-size: 18px;
   padding: 0 5%;
 }
+
 h4 {
   color: #37474f;
   font-size: 15px;
@@ -31,37 +42,45 @@ h4 {
   font-family: 'Time New Roman', sans-serif;
   margin-left: 5%;
 }
+
 p {
   color: black;
   font-size: 15px;
   font-style: normal;
   font-family: 'Time New Roman', sans-serif;
 }
+/* La partie gauche */
 .sidebar {
   width: 30%;
-  height: 100vh;
+  height: 100%;
   background: #7451eb;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family: 'Time New Roman';
   font-style: normal;
   font-weight: normal;
   text-align: center;
 }
+
 .sidebar p {
-  color: #ddd7d7;
+  color: #cac5d1;
 }
+
 .about_content {
   padding: 0 1em;
 }
+/* La partie droite */
 .some {
   width: 100%;
+  height: 100vh;
 }
+
 .first_name {
   color: #7451eb;
 }
+
 .little_title {
   font-size: 18px;
   font-style: normal;
@@ -69,61 +88,70 @@ p {
   padding: 0 5%;
   margin: 0;
 }
+
 .small_ligne {
   width: 3%;
   border: 1px solid #7451eb;
   margin: 0 5% 5%;
 }
+
 #contact,
 #hobbies,
 #presentation {
   width: 100%;
 }
+
 .ligne {
   width: 100%;
   border: 1px solid #7451eb;
 }
+
 .date-desc {
   display: flex;
   align-items: center;
   margin: 0 2%;
 }
+
 i.fas {
   border: 10px;
   color: #7451eb;
 }
+
 .studies {
   margin: 0 5%;
 }
+
 .experience {
   margin: 0 5%;
 }
-.skill {
-  margin: 0 5%;
-}
+
 .recommendation {
   margin: 0 5%;
 }
+
 .date {
   margin: 0 5%;
   width: 25%;
 }
+
 .description {
   width: 100%;
   justify-content: left;
 }
-
+/* Pour tablettes et téléphones */
 @media screen and (max-width: 800px) {
   .main-container {
-    width: auto;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .sidebar {
-    width: auto;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1em 0;
   }
