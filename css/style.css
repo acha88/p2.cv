@@ -5,6 +5,7 @@ body {
 
 .main-container {
   width: 100%;
+  height: 100vh;
   display: flex;
 }
 
@@ -70,12 +71,16 @@ p {
 }
 
 .about_content {
-  padding: 0.5em 1em;
+  padding: 0.5em;
+}
+.about_hobbies {
+  justify-content: space-between;
+  padding: 0.5em;
 }
 /* La partie droite */
 .some {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .first_name {
